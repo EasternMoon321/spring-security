@@ -11,4 +11,14 @@ public class DemoController {
     public String hello() {
         return "hello spring-security";
     }
+
+    @GetMapping("/index")
+    public String index() {
+        return "index";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
